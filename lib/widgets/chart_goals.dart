@@ -1,40 +1,35 @@
 import 'package:flutter/material.dart';
 
 class ChartAndGoals extends StatelessWidget {
-
   Widget _chartCard() => Container(
-    decoration: BoxDecoration(
-      color: Colors.white,
-      borderRadius: BorderRadius.circular(10.0),
-    ),
-    child: Column(
-      children: <Widget>[
-        Container(
-          decoration: BoxDecoration(
-            border: Border(bottom: BorderSide(color: Colors.red))
-          ),
-          padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              Text("Chart"),
-              Text("October")
-            ],
-          ),
-        )
-      ],
-    ),
-  );
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(10.0),
+        ),
+        child: Column(
+          children: <Widget>[
+            Container(
+              decoration: BoxDecoration(
+                  border: Border(bottom: BorderSide(color: Colors.red))),
+              padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[Text("Chart"), Text("October")],
+              ),
+            )
+          ],
+        ),
+      );
 
   Widget _goalsCard() => Container(
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(10.0),
-      ),
-    child: Center(
-      child: Text("Test"),
-    ),
-  );
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(10.0),
+        ),
+        child: Center(
+          child: Text("Test"),
+        ),
+      );
 
   @override
   Widget build(BuildContext context) {
@@ -48,7 +43,9 @@ class ChartAndGoals extends StatelessWidget {
               flex: 5,
               child: _chartCard(),
             ),
-            SizedBox(width: 20,),
+            SizedBox(
+              width: 20,
+            ),
             Flexible(
               flex: 2,
               child: _goalsCard(),

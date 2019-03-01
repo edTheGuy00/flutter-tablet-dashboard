@@ -3,7 +3,6 @@ import 'package:tablet_dashboard/ui/main_body.dart';
 import 'package:tablet_dashboard/ui/side_menu.dart';
 
 class HomePage extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     final shortestSide = MediaQuery.of(context).size.shortestSide;
@@ -35,6 +34,5 @@ class HomePage extends StatelessWidget {
         ),
       );
     }
-
   }
 }

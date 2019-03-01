@@ -1,4 +1,3 @@
-
 class StatisticsInfo {
   final InfoType type;
   final String totalCount;
@@ -21,12 +20,8 @@ class StatisticsInfo {
     }
   }
 
-  StatisticsInfo(this.type, this.totalCount, this.weekChange, this.dayChange, this.dayCount);
+  StatisticsInfo(this.type, this.totalCount, this.weekChange, this.dayChange,
+      this.dayCount);
 }
 
-enum InfoType {
-  likes,
-  views,
-  comments,
-  followers
-}
+enum InfoType { likes, views, comments, followers }

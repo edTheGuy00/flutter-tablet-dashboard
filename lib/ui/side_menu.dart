@@ -24,8 +24,8 @@ class SideMenu extends StatelessWidget {
     height: 70.0,
     decoration: BoxDecoration(
         border: Border(
-            bottom: BorderSide(color: Colors.black12),
-        )),
+      bottom: BorderSide(color: Colors.black12),
+    )),
     child: Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
@@ -42,11 +42,10 @@ class SideMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        color: Colors.white,
-        border: Border(
-          right: BorderSide(color: Colors.black12),
-        )
-      ),
+          color: Colors.white,
+          border: Border(
+            right: BorderSide(color: Colors.black12),
+          )),
       child: Column(
         children: <Widget>[_header, _notifications, Menu()],
       ),

@@ -74,7 +74,8 @@ class InfoCard extends StatelessWidget {
       ));
 
   final TextStyle _smallBold = const TextStyle(fontWeight: FontWeight.bold);
-  final TextStyle _whiteFont = const TextStyle(color: Colors.white, fontSize: 16);
+  final TextStyle _whiteFont =
+      const TextStyle(color: Colors.white, fontSize: 16);
 
   Widget _percentChangeRow() => Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -117,7 +118,9 @@ class InfoCard extends StatelessWidget {
         padding: EdgeInsets.symmetric(vertical: 10, horizontal: 12),
         decoration: BoxDecoration(
           color: _getIconColor(),
-          borderRadius: BorderRadius.only(bottomLeft: Radius.circular(10), bottomRight: Radius.circular(10)),
+          borderRadius: BorderRadius.only(
+              bottomLeft: Radius.circular(10),
+              bottomRight: Radius.circular(10)),
         ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,

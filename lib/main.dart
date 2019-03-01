@@ -3,8 +3,8 @@ import 'package:tablet_dashboard/ui/home_page.dart';
 import 'package:flutter/services.dart';
 
 void main() {
-
-  SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeLeft, DeviceOrientation.landscapeRight])
+  SystemChrome.setPreferredOrientations(
+          [DeviceOrientation.landscapeLeft, DeviceOrientation.landscapeRight])
       .then((_) => runApp(MyApp()));
 }
 

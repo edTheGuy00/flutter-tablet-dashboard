@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class TopBar extends StatelessWidget {
-
   Widget _search() => Container(
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 10.0),
@@ -24,7 +23,9 @@ class TopBar extends StatelessWidget {
 
   Widget _notifications() => Container(
         decoration: BoxDecoration(
-          border: Border(right: BorderSide(color: Colors.black12), left: BorderSide(color: Colors.black12)),
+          border: Border(
+              right: BorderSide(color: Colors.black12),
+              left: BorderSide(color: Colors.black12)),
         ),
         child: Center(
           child: IconButton(icon: Icon(Icons.notifications), onPressed: () {}),

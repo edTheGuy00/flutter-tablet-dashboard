@@ -72,10 +72,7 @@ class _MenuState extends State<Menu> {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        border: Border(
-          bottom: BorderSide(color: Colors.black12)
-        )
-      ),
+          border: Border(bottom: BorderSide(color: Colors.black12))),
       margin: EdgeInsets.only(top: 50.0),
       height: 250,
       child: Column(

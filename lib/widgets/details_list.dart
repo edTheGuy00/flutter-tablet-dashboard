@@ -3,7 +3,6 @@ import 'package:tablet_dashboard/model/mock_data.dart';
 import 'package:tablet_dashboard/widgets/info_card.dart';
 
 class DetailsList extends StatelessWidget {
-
   Widget _buildCard(BuildContext context, int index) =>
       InfoCard(statisticsInfo: statisticsInfo[index]);
 
