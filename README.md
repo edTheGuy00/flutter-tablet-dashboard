@@ -1,8 +1,10 @@
 # tablet_dashboard
 
-A new Flutter application.
+A Tablet UI.
 
-## Getting Started
+- [Original Design](https://dribbble.com/shots/6098124-Data-design)
+
+![](screenshot.png)
 
 This project is a starting point for a Flutter application.
 
